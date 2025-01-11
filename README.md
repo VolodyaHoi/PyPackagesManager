@@ -33,21 +33,26 @@ PyPackagesManager is program which allows you to work with python packages by ca
 
 > Main window with installed packages, information and uninstall function
 
+
 <img src="https://sun9-15.userapi.com/impg/RqDyq_9QJVNgVPl9McV5tGu8EawUlZLv4jqY-g/n_rr_H91Ak4.jpg?size=986x594&quality=95&sign=6c7a29925ee99f9d7561ab6065bd58f6&type=album"/>
 
 > Package install window (install proccess)
+
 
 <img src="https://sun9-52.userapi.com/impg/alqkGwVrUZixx-zhftNhgjXa8-7BP-ik6l4OjQ/nPsupGH_o9c.jpg?size=987x599&quality=95&sign=09f71be966d6f2e076b4f2ae65c0bfdf&type=album"/>
 
 > Packages install window (install from txt file)
 
+
 <img src="https://sun9-64.userapi.com/impg/mIZgeCqaO7ytL0eq8DBITSge2_vLXGp74NecFQ/z1NX0CE17-g.jpg?size=988x595&quality=95&sign=8c2ccc218e9f144e8f77e83c213d7d0d&type=album"/>
 
 > Upgrade package proccess
 
+
 <img src="https://sun9-31.userapi.com/impg/n4h_asTDeV8LjAFoqiAqw-4OJQTapk1XZtt7xg/Z5_dHR0iAJo.jpg?size=984x591&quality=95&sign=c9720ae05bccdda1eb9b4a96a64ed80b&type=album"/>
 
 > Download package window
+
 
 <img src="https://sun9-16.userapi.com/impg/OD-MDCbnwgs0jiOyP6k9DqaPPbZFi5_f2KQszg/phnE3EiYO_U.jpg?size=984x593&quality=95&sign=b36b916a6e1e468a5af19f8d48d16052&type=album"/>
 
@@ -56,27 +61,34 @@ PyPackagesManager is program which allows you to work with python packages by ca
 ## Work principle:
 
 Install function         - pip install <package-name>
+
 Uninstall function       - pip uninstall <package-name>
+
 Upgrade function         - pip install --upgrade <package-name>
+
 Show information         - pip show <package-name>
+
 Show installed packages  - pip list
+
 Download package archive - pip download <package-name>
 
-### package_work.py 
+## package_work.py module
 
-#### get_installed_packages()
+### get_installed_packages()
 
 Getting and return installed packages list
 
 > pip list
 
-#### get_upgrade_packages()
+
+### get_upgrade_packages()
 
 Getting and return packages list witch you can upgrade
 
 > pip list --outdated
 
-#### get_package_info(package)
+
+### get_package_info(package)
 
 Getting information about package. Return list with information
 
@@ -86,7 +98,8 @@ Getting information about package. Return list with information
 | :-------- | :------- | :-------------------------------- |
 | `package` | `string` | package name                      |
 
-#### install_package(package)
+
+### install_package(package)
 
 Installing package. Return True or "ERROR"
 
@@ -96,7 +109,8 @@ Installing package. Return True or "ERROR"
 | :-------- | :------- | :-------------------------------- |
 | `package` | `string` | package name                      |
 
-#### uninstall_package(package)
+
+### uninstall_package(package)
 
 Uninstalling package. Return True or "ERROR"
 
@@ -106,7 +120,8 @@ Uninstalling package. Return True or "ERROR"
 | :-------- | :------- | :-------------------------------- |
 | `package` | `string` | package name                      |
 
-#### upgrade_package(package)
+
+### upgrade_package(package)
 
 Upgrade package. Return True or "ERROR"
 
@@ -116,7 +131,8 @@ Upgrade package. Return True or "ERROR"
 | :-------- | :------- | :-------------------------------- |
 | `package` | `string` | package name                      |
 
-#### download_package(package, directory)
+
+### download_package(package, directory)
 
 Donwloading package`s .whl archive in user directory. Return True or "ERROR"
 
@@ -129,7 +145,7 @@ Donwloading package`s .whl archive in user directory. Return True or "ERROR"
 
 ## Install:
 
-### Download requirements
+### Install requirements
 
 ```bash
 pip install dearpygui

@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/aeda2512-f845-47e4-99f3-d07fab855f48)# PyPackagesManager
+# PyPackagesManager
 
 <img src="https://img.shields.io/badge/PyPackagesManager-0.1-violet"/> <img src="https://img.shields.io/badge/python-3.10+-blue"/> <img src="https://img.shields.io/badge/pip-24.0-green"/>
 

@@ -60,17 +60,17 @@ PyPackagesManager is program which allows you to work with python packages by ca
 
 ## Work principle:
 
-Install function         - pip install <package-name> <br />
+<pre>Install function    - pip install package-name
 
-Uninstall function       - pip uninstall <package-name>
+Uninstall function       - pip uninstall -y package-name
 
-Upgrade function         - pip install --upgrade <package-name>
+Upgrade function         - pip install --upgrade package-name
 
-Show information         - pip show <package-name>
+Show information         - pip show package-name
 
 Show installed packages  - pip list
 
-Download package archive - pip download <package-name>
+Download package archive - pip download package-name -d path </pre>
 
 ## package_work.py module
 
@@ -80,7 +80,7 @@ Getting and return installed packages list
 
 > pip list
 
-
+&nbsp;
 ### get_upgrade_packages()
 
 Getting and return packages list witch you can upgrade

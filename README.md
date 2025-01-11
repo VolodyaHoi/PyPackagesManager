@@ -60,7 +60,7 @@ PyPackagesManager is program which allows you to work with python packages by ca
 
 ## Work principle:
 
-Install function         - pip install <package-name>
+Install function         - pip install <package-name> </br>
 
 Uninstall function       - pip uninstall <package-name>
 

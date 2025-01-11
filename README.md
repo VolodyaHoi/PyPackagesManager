@@ -97,7 +97,7 @@ Getting and return packages list witch you can upgrade
 
 Getting information about package. Return list with information
 
-> pip show <package-name>
+> pip show package-name
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -108,7 +108,7 @@ Getting information about package. Return list with information
 
 Installing package. Return True or "ERROR"
 
-> pip install <package-name>
+> pip install package-name
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -119,7 +119,7 @@ Installing package. Return True or "ERROR"
 
 Uninstalling package. Return True or "ERROR"
 
-> pip uninstall <package-name>
+> pip uninstall -y package-name
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -130,7 +130,7 @@ Uninstalling package. Return True or "ERROR"
 
 Upgrade package. Return True or "ERROR"
 
-> pip install --upgrade <package-name>
+> pip install --upgrade package-name
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -141,7 +141,7 @@ Upgrade package. Return True or "ERROR"
 
 Donwloading package`s .whl archive in user directory. Return True or "ERROR"
 
-> pip download <package-name> -d <directory>
+> pip download package-name -d directory
 
 | Parameter   | Type     | Description                       |
 | :---------- | :------- | :-------------------------------- |

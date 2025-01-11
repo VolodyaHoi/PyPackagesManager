@@ -13,7 +13,7 @@ PyPackagesManager is program which allows you to work with python packages by ca
 - Upgrade package
 - Show information about package
 - Show installed packages
-- Donwload package`s .whl archive
+- Download package`s .whl archive
 
 ### Requirements:
 
